@@ -6,11 +6,10 @@ import Link from 'next/link'
 import axios from 'axios';
 import {ulid} from 'ulid'
 import React,{ useState, useEffect} from 'react'
-import Test from './test'
 const name = 'kubo'
 export const siteTitle = 'Next.js Sample'
 
-export default function Layout({ children, home }) {
+export default function Layout2({ children, home }) {
   const [todoList, setTodoList] = useState([]);
   useEffect( () => {
     const fetchData = async () => {
@@ -33,7 +32,6 @@ export default function Layout({ children, home }) {
         {home ? (
           <>
             <h1>TODO進捗管理 main</h1>
-            <Test>q</Test>
             <Image
               priority
               src="/images/001.jpg"
