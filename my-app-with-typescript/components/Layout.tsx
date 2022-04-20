@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import { Button,Container,Row,Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import styles from '../styles/Common.module.scss'
 type Props = {
   children?: ReactNode
   title?: string
@@ -18,31 +19,38 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
     <header>
       <Container>
         <Row>
-          <Col sm={2} md={2} lg={3}> </Col>
-          <Col sm={8} md={8} lg={6} xs={12} className="d-flex justify-content-center">
-          <nav>
-            <Link href="/">
-              <a>Home</a>
-            </Link>{' '}
-            |{' '}
-            <Link href="/about">
-              <a>About</a>
-            </Link>{' '}
-            |{' '}
-            <Link href="/users">
-              <a>Users List</a>
-            </Link>{' '}
-            | <a href="/api/users">Users API</a>
-          </nav>
+          <Col md={1} lg={1}> </Col>
+          <Col md={10} lg={10} xs={12} className="d-flex justify-content-center">
+            <Row className="w-100 d-flex justify-content-center">
+              <Col className={styles.header}><Link className="w-100" href="/">Home</Link></Col>
+              <Col className={styles.header}><Link className="w-100" href="/about">About</Link></Col>
+              <Col className={styles.header}><Link className="w-100" href="/users">UsersList</Link></Col>
+              <Col className={styles.header}><Link className="w-100" href="/api/users">UsersAPIs</Link></Col>
+            </Row> 
           </Col>
-          <Col sm={2} md={2} lg={3}> </Col>
+          <Col md={1} lg={1}> </Col>
         </Row>
       </Container>
     </header>
-    {children}
+    <Container>
+        <Row>
+          <Col md={1} lg={1}> </Col>
+          <Col md={10} lg={10} xs={12} className="">
+          {children}
+          </Col>
+          <Col md={1} lg={1}> </Col>
+        </Row>
+      </Container>
     <footer>
-      <hr />
-      <span>I'm here to stay (Footer)</span>
+      <Container>
+        <Row>
+          <Col md={1} lg={1}> </Col>
+          <Col md={10} lg={10} xs={12} className="d-flex justify-content-center">
+            <span>company copy light)</span>
+          </Col>
+          <Col md={1} lg={1}> </Col>
+        </Row>
+      </Container>
     </footer>
   </div>
 )
