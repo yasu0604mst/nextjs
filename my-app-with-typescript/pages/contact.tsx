@@ -13,7 +13,7 @@ const Contact = () => (
       <Breadcrumb.Item className={styles.breadcrumb_item} href="#">Home</Breadcrumb.Item>
       <Breadcrumb.Item className={styles.breadcrumb_item} active>Contact</Breadcrumb.Item>
     </Breadcrumb>
-    <div class="m-3">
+    <div className="m-3">
     <MyContact></MyContact>
     </div>
   </Layout>

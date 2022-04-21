@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
-import {Card, Dropdown, Button,Container,Row,Col } from 'react-bootstrap';
+import {Card, Dropdown, Button,Container,Row,Col} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from '../styles/Common.module.scss'
 
