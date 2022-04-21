@@ -7,14 +7,13 @@ type Props = {
   description?: string
 }
 const MyCardImage = ({ title, url, description }: Props) => (
-<Card className="bg-dark text-white">
+<Card className="bg-dark text-white d-flex justify-content-center">
   <Card.Img src={url} alt={title} />
   <Card.ImgOverlay>
     <Card.Title>{title}</Card.Title>
     <Card.Text>
     {description}
     </Card.Text>
-    <Card.Text>Last updated 3 mins ago</Card.Text>
   </Card.ImgOverlay>
 </Card>
 )

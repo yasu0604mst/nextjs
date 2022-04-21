@@ -19,7 +19,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     <MyHeader></MyHeader>
-    <Container>
+    <Container fluid>
       <Row>
         <Col md={1} lg={1}> </Col>
         <Col md={10} lg={10} xs={12} className="">

@@ -6,6 +6,17 @@
   width: 100%;
   padding: 16px 0;
   a {
+    color: #333;
+    text-decoration: none;
+  }
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 16px 0;
+  a {
     text-decoration: none;
   }
 }

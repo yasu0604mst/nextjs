@@ -11,10 +11,8 @@ const MyFooter = () => (
     <Container>
       <Row>
         <Col md={1} lg={1}> </Col>
-        <Col md={10} lg={10} xs={12} className="d-flex justify-content-center">
-          <Row className="w-100">
-            <Col className={styles.header}> <span>company copy light</span> </Col>
-          </Row>
+        <Col md={10} lg={10} xs={12} className="d-flex justify-content-center w-100">
+            <div className={styles.footer}> <span>Copyright © 2020 Yasu All rights reserved.</span> </div>
         </Col>
         <Col md={1} lg={1}> </Col>
       </Row>

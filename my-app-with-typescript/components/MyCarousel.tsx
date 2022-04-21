@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from 'next/image';
 
 const MyCarousel = () => (
-<Carousel>
+<Carousel className='my-2'>
   <Carousel.Item>
     <Image
       className="d-block w-100"

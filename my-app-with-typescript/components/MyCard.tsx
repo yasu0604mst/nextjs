@@ -7,7 +7,7 @@ type Props = {
   description?: string
 }
 const MyCard = ({ title, url, description }: Props) => (
-<Card style={{ width: '18rem' }}>
+<Card className='w-100 my-2' style={{ width: '18rem' }}>
   <Card.Img variant="top" src={url} />
   <Card.Body>
     <Card.Title>{title}</Card.Title>
