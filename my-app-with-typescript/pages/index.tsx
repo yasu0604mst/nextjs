@@ -15,6 +15,9 @@ import MyContact from '../components/MyContact'
 
 const IndexPage = () => (
   <Layout title="Home | 写真撮影">
+    <div className='my-2'>
+      <h1 className={styles.title}>福岡市｜プロフィール写真撮影いたします。<br></br>SNS用やマッチングアプリなど、アイコンにして映える写真をお撮りします</h1>
+    </div>
     <MyCarousel></MyCarousel>
     <MyService></MyService>
     <MyContact></MyContact>

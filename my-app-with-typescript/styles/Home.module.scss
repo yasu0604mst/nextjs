@@ -1,2 +1,7 @@
 
 .breadcrumb_item+.breadcrumb_item::before{content:var(--bs-breadcrumb-divider,">") !important ;}
+
+.title {
+  font-size: medium;
+  color: #666;
+}
