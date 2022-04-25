@@ -1,15 +1,15 @@
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Image from './Image';
+import ImageCarousel from './ImageCarousel';
 
 const MyCarousel = () => (
 <Carousel className='my-2'>
   <Carousel.Item>
-    <Image
+    <ImageCarousel
       className="d-block w-100"
-      src="/images/001.jpg"
+      src="/images/004.jpg"
       alt="First slide"
-      width="1000" height="500"
+      width="1000" height="300"
     />
     <Carousel.Caption>
       <h3>First slide label</h3>
@@ -17,11 +17,11 @@ const MyCarousel = () => (
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
-    <Image
+    <ImageCarousel
       className="d-block w-100"
-      src="/images/002.jpg"
+      src="/images/005.jpg"
       alt="Second slide"
-      width="1000" height="500"
+      width="1000" height="300"
     />
 
     <Carousel.Caption>
@@ -30,11 +30,11 @@ const MyCarousel = () => (
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
-    <Image
+    <ImageCarousel
       className="d-block w-100"
-      src="/images/003.jpg"
+      src="/images/006.jpg"
       alt="Third slide" 
-      width="1000" height="500"
+      width="1000" height="300"
     />
 
     <Carousel.Caption>
