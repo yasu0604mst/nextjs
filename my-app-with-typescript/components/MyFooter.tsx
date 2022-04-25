@@ -12,7 +12,7 @@ const MyFooter = () => (
       <Row>
         <Col md={1} lg={1}> </Col>
         <Col md={10} lg={10} xs={12} className="d-flex justify-content-center w-100">
-            <div className={styles.footer}> <span>Copyright © 2020 Yasu All rights reserved.</span> </div>
+            <div className={styles.footer}> <span>Copyright © 2022 Yasu All rights reserved.</span> </div>
         </Col>
         <Col md={1} lg={1}> </Col>
       </Row>
