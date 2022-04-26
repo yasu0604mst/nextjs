@@ -7,39 +7,36 @@ const MyCarousel = () => (
   <Carousel.Item>
     <ImageCarousel
       className="d-block w-100"
-      src="/images/004.jpg"
+      src="/images/top1.jpg"
       alt="First slide"
-      width="1000" height="300"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <h3 className='mb-0' style={{background:'#0002'}}>ページに映える写真を撮影</h3>
+        <p style={{background:'#0002'}}>写真はSNSのアイコンなどに使用することを想定し、明るく映えるような写真を撮影します。</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <ImageCarousel
       className="d-block w-100"
-      src="/images/005.jpg"
+      src="/images/top2.jpg"
       alt="Second slide"
-      width="1000" height="300"
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h3 className='mb-0' style={{background:'#0002'}}>自然な写真を撮影</h3>
+        <p style={{background:'#0002'}}>友達に撮られたかのような自然な写真撮影を心がけています。</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <ImageCarousel
       className="d-block w-100"
-      src="/images/006.jpg"
+      src="/images/top3.jpg"
       alt="Third slide" 
-      width="1000" height="300"
     />
 
-    <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    <Carousel.Caption >
+        <h3 className='mb-0' style={{background:'#0002'}}>卒業式、卒園式、入学式の記念撮影にも</h3>
+        <p style={{background:'#0002'}}>思い出の1日を写真にします</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../styles/Common.module.scss'
+import  '../styles/Common.module.scss'
 type Props = {
   className?: string
   src?: string

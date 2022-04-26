@@ -11,18 +11,15 @@ const MyPortfolioPhoto = () => (
     <Card.Header>撮影サンプル</Card.Header>
     <Card.Body>
       <Container>
-        <Row className='row-cols-3'>
-        <img src="/images/002.jpg" alt='詳細説明2' width="400" height="300"></img>
-        <img src="/images/003.jpg" alt='詳細説明3' width="400" height="300"></img>
-        <img src="/images/001.jpg" alt='詳細説明1' width="400" height="300"></img>
-        <img src="/images/002.jpg" alt='詳細説明2' width="400" height="300"></img>
-        <img src="/images/003.jpg" alt='詳細説明3' width="400" height="300"></img>
-        <img src="/images/001.jpg" alt='詳細説明1' width="400" height="300"></img>
-        <img src="/images/002.jpg" alt='詳細説明2' width="400" height="300"></img>
-        <img src="/images/003.jpg" alt='詳細説明3' width="400" height="300"></img>
-        <img src="/images/001.jpg" alt='詳細説明1' width="400" height="300"></img>
-        <img src="/images/002.jpg" alt='詳細説明2' width="400" height="300"></img>
-        <img src="/images/003.jpg" alt='詳細説明3' width="400" height="300"></img>
+        <Row className='row-cols-2 my-2'>
+        <img src="/images/001.jpg" alt='撮影サンプル1' className="my-1"></img>
+        <img src="/images/002.jpg" alt='撮影サンプル2' className="my-1"></img>
+        <img src="/images/003.jpg" alt='撮影サンプル3' className="my-1"></img>
+        <img src="/images/004.jpg" alt='撮影サンプル4' className="my-1"></img>
+        <img src="/images/014.jpg" alt='撮影サンプル14'  className="my-1"></img>
+        <img src="/images/013.jpg" alt='撮影サンプル13'  className="my-1"></img>
+        <img src="/images/015.jpg" alt='撮影サンプル15'  className="my-1"></img>
+        <img src="/images/016.jpg" alt='撮影サンプル16'  className="my-1"></img>
         </Row>
       </Container>
     </Card.Body>
