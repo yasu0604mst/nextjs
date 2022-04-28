@@ -19,13 +19,6 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta name="google-site-verification" content="CZaB9ZLRrsMAUs7zUvQYqb2oELjKqNX5QZAtNdw-vjA" />
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-6F912BMM71"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-6F912BMM71');
-      </script>
     </Head>
     <MyHeader></MyHeader>
     <Container fluid>
