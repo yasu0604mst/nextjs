@@ -7,7 +7,7 @@ import styles from '../styles/Common.module.scss'
 
 
 const MyHeader = () => (
-  <header style={{position:'fixed'}}>
+  <header className="w-100" style={{position:'fixed', zIndex:100}}>
     <Container fluid className='p-0'>
       <Row>
         <Col className="w-100">
