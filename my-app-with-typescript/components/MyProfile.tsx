@@ -15,7 +15,7 @@ const MyProfile = () => (
       <div className='d-flex flex-column align-item-center m-3'>
         <div className='d-flex justify-content-center'>
           <Link href="#">
-            <Image src="/images/profile.jpg" alt='aaaaa' width="100" height="100"  ></Image>
+            <Image src="/images/profile.webp" alt='aaaaa' width="100" height="100"  ></Image>
           </Link>
         </div>
         <Card.Text>Yasuhiro Kubota</Card.Text>
