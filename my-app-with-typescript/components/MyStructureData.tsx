@@ -14,7 +14,7 @@ const qAndA = {
         '@type': "Answer",
         'text': "上半身は白などの明るい色の方が、顔が明るくなるのでお勧めです。上半身が黒の場合、黒が目立ってしまうので、できれば避けてもらいたいです。パンツやジャケットの黒は問題ありません。",
         'upvoteCount': 1,
-        'url': ""
+        'url': "https://www.xn--dck5ef6fh6gy530acfxa2ok328b.jp/"
         },
       'suggestedAnswer': []
     }
