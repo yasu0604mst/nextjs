@@ -12,9 +12,11 @@ import { Breadcrumb } from 'react-bootstrap';
 import styles from '../styles/Home.module.scss'
 import { Button,Container,Row,Col } from 'react-bootstrap';
 import MyContact from '../components/MyContact'
+import MyStructureData from '../components/MyStructureData'
 
 const IndexPage = () => (
   <Layout title="Home | 写真撮影">
+    <MyStructureData></MyStructureData>
     <div className='my-2'>
       <h1 className={styles.title}>福岡市｜プロフィール写真撮影いたします。<br></br>SNS用やマッチングアプリなど、アイコンにして映える写真をお撮りします</h1>
     </div>
